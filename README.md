@@ -1,4 +1,4 @@
-# rotas-exercicios
+# vue-router
 
 ## Project setup
 ```
