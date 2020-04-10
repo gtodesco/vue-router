@@ -18,3 +18,16 @@ export default new Router({
         }
     ]
 });
+
+/**
+ * Também é possível definir componentes para router-views de nome específico
+ * Ex: <router-view name="teste"/>
+ * dentro de routes: [] fica assim: 
+ * {
+        path: '/',
+        components: {
+            default: Inicio,
+            teste: Principal   <---- 
+        } 
+    },
+ */
